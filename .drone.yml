@@ -1,0 +1,14 @@
+---
+kind: pipeline
+type: docker
+name: mold-bookdown
+
+steps:
+- name: build test image
+  image: plugins/docker
+  settings:
+    username:
+      from_secret: canister-username
+    password:
+      from_secret: canister-password
+    repo: canister.io/chazu/mold-bookdown
