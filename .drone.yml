@@ -4,7 +4,7 @@ type: docker
 name: mold-bookdown
 
 steps:
-- name: build test image
+- name: build_test_image
   image: plugins/docker
   settings:
     username:
