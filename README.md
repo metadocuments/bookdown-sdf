@@ -8,3 +8,4 @@ You can find the preview of this example at https://bookdown.org/yihui/bookdown-
 * Add introductory README
 * How to configure theme
 * Use a less crappy web server in the container
+* Add k8s deployment to drone setup (add note that the deployment must be created manually)
