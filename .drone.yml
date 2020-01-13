@@ -12,6 +12,4 @@ steps:
       from_secret: canister_username
     password:
       from_secret: canister_password
-    repo: cloud.canister.io:5000/chazu/mold-bookdown
-    tags:
-      - latest
+    repo: chazu/mold-bookdown
