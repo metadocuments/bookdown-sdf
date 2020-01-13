@@ -9,3 +9,7 @@ You can find the preview of this example at https://bookdown.org/yihui/bookdown-
 * How to configure theme
 * Use a less crappy web server in the container
 * Add k8s deployment to drone setup (add note that the deployment must be created manually)
+
+* TODO create repo for survey of sources for a survey of alternatives
+* TODO create repo for COLA spelunking
+* TODO Create repo for stupid bash tricks? :thinking:
