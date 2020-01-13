@@ -7,9 +7,8 @@ steps:
 - name: build_test_image
   image: plugins/docker
   settings:
-    registry: cloud.canister.io:5000
     username:
       from_secret: canister_username
     password:
       from_secret: canister_password
-    repo: cloud.canister.io:5000/chazu/mold-bookdown
+    repo: mold-bookdown
