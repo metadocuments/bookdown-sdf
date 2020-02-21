@@ -1,7 +1,7 @@
 ---
 kind: pipeline
 type: docker
-name: mold-bookdown
+name: bookdown-sdf
 
 steps:
 - name: build_test_image
@@ -11,4 +11,4 @@ steps:
       from_secret: canister_username
     password:
       from_secret: canister_password
-    repo: chazu/mold-bookdown
+    repo: chazu/bookdown-sdf
